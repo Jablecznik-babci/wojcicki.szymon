@@ -107,7 +107,6 @@ function zmienMotyw() {
         mapaTlo.style.display = "none";
         tloStrony.style.color = "white";
 
-        cytatPole.innerHTML = "My decydujemy tylko o tym jak wykorzystać czas, który nam dano.";
         cytatPole.style.backgroundColor = "#222222";
 
         for (let i = 0; i < sekcje.length; i++) {
@@ -134,7 +133,6 @@ function zmienMotyw() {
         mapaTlo.style.display = "block";
         tloStrony.style.color = "#2b2b2b";
 
-        cytatPole.innerHTML = "Czarodziej nigdy się nie spóźnia.";
         cytatPole.style.backgroundColor = "rgba(255,255,255,0.4)";
 
         for (let i = 0; i < sekcje.length; i++) {
@@ -164,4 +162,5 @@ document.querySelector("#przyciskLogin").addEventListener("click", logowanie);
 document.querySelector("#gandalf").addEventListener("click", zmienMotyw);
 
 pokazLosowyCytat();
+
 wyswietlPostacie(postacie);
